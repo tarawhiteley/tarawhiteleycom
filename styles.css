@@ -1,0 +1,506 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display:block;
+}
+
+
+body {
+	background-color: rgba(191, 119, 127, 0.9);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*
+#container {
+	width: auto;
+	height: auto;
+	margin: auto;
+	background-color: hsla(359,100%,79%,0.20);
+}*/
+
+@font-face {
+	font-family: "caviar";
+	src: url(fonts/CaviarDreams_Bold.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "bringshoot";
+	src: url(fonts/bringshoot.ttf) format("truetype");
+}
+
+h1 {
+	font-family: "bringshoot", cursive;
+	font-size: 68px;
+	color: 	#2F4F4F;
+	padding: 10px;
+}
+
+h6 {
+	display: none;
+}
+
+p {
+	font-family: "ABeeZee", sans-serif;
+	font-size: 24px;
+	color: black;
+	margin: auto;
+	text-align: left;
+	padding: 10px;
+}
+
+/* nav bar footer bar */
+nav {
+	width: 100%;
+	height: 34px;
+	padding: 10px 0;
+	background-color: rgba(191, 119, 127, 0.9);
+	margin: auto;
+	position: fixed;
+  top: 0px;
+	border-bottom: 8px solid rgba(150, 80, 98, 0.8);
+	z-index:1111111111;
+}
+
+nav ul, footer ul {
+	list-style-type: none;
+	text-align: center;
+	font-family: "bringshoot", cursive;
+
+}
+
+nav ul li {
+	display: inline;
+	padding: 30px;
+}
+
+nav ul li a:link, #nav ul li a:visited {
+	font-size: 36px;
+	color: #FFFFF0;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	font-size: 36px;
+	color: #ff9496;
+	text-decoration: underline;
+}
+
+#nav a:visited {
+	font-size: 36px;
+	color: #FFFFF0;
+	text-decoration: none;
+}
+
+footer {
+	width: 100%;
+	height: 70px;
+	padding: 3px;
+	background-color: rgba(191, 119, 127, 0.9);
+	position: fixed;
+  bottom: 0px;
+	border-top: 8px solid rgba(150, 80, 98, 0.8);
+	z-index:1111111111;
+}
+
+footer li {
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+}
+
+footer ul li img {
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+}
+
+footer img:hover {
+	opacity: .2;
+}
+
+/* logo with text - main section */
+
+#intro {
+	background-image: url(images/placeholder.jpg);
+	width: 100%;
+	height:988px;
+	border-top: 3px #2F4F4F solid;
+}
+
+.narrow {
+	width: 55%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	background-color: hsla(359,100%,79%,0.80);
+}
+
+#logo {
+	width: 270px;
+	margin: 100px 0 20px 0;
+}
+
+.narrow p {
+	width: 55%;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+/* about me */
+
+#about {
+	background-image: url(images/whitebackground.jpg);
+	height: 1138px;
+	border-top: 3px #2F4F4F solid;
+}
+
+.wide {
+	width: 82%;
+	margin: auto;
+	padding: 60px 20px 20px 80px;
+	text-align: center;
+}
+
+.wide p{
+	text-align: center;
+}
+
+#about .wide p{
+	text-align: left;
+}
+
+#about img {
+	width: 300px;
+	float: right;
+	padding: 15px;
+}
+
+#resumethumb {
+	width:700px;
+	clear: both;
+}
+
+#resumethumb p {
+	width: 600px;
+	float: left;
+}
+
+#resumethumb img {
+	float: right;
+	width: 100px;
+	margin-right: 60px;
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+/*resume page*/
+
+#resume {
+	width: 1000px;
+	height: 1850px;
+	margin: auto;
+	padding:60px;
+}
+
+#resume img {
+	width: 1010px;
+	margin: auto;
+}
+
+#resume h1 a:link, #resume h1 a:visited {
+	color: #2F4F4F;
+	text-decoration: none;
+}
+
+/* portfolio */
+#portfolio_top {
+	background-image:url(images/backgrounddesk.png);
+	background-size: cover;
+	width: 100%;
+	height: 1300px;
+	clear: both;
+	border-top: 3px #2F4F4F solid;
+}
+
+#portfolio_top a:link {
+	font-family: "bringshoot", cursive;
+	font-size: 36px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#portfolio_top a:link, #portfolio_top a:visited {
+	font-size: 36px;
+	color: black;
+	text-decoration: none;
+}
+
+#portfolio_top a:hover {
+	font-size: 36px;
+	font-weight: bold;
+	color: black;
+	text-decoration: underline;
+}
+
+.narrow h1 {
+	padding: 100px 0 0 50px;
+}
+
+hr {
+	margin: 0.5em 140px 0.9em 140px;
+  border-width: 1px;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#portfolio_bottom {
+	background-image:url(images/bgimg3.jpg);
+	width: 100%;
+	height: 1226px;
+	border-top: 3px #2F4F4F solid;
+}
+
+#portfolio_bottom .wide {
+	margin-top:200px;
+	text-align: center;
+}
+
+#cards, #imc, #branding, #other {
+	width: 25%;
+	padding-top: 50px;
+}
+
+#cards {
+	float:left;
+}
+
+#imc, #branding, #other {
+	float:right;
+}
+
+#cards:hover, #imc:hover, #branding:hover, #other:hover {
+	opacity: .5;
+}
+
+.juicebox {
+	width: 700px;
+	margin: auto;
+	padding-top: 100px;
+}
+
+/*Services*/
+
+#skills {
+	background-image:url(images/womanhand1.png);
+	width: 100%;
+	height: 688px;
+	border-top: 3px #2F4F4F solid;
+}
+
+.middle {
+	width: 84%;
+	height: 100%;
+	margin: auto;
+	background-color: hsla(359,100%,79%,0.50);
+}
+
+#skills .middle h1 {
+	padding: 80px 20px 20px 20px;
+	text-align: center;
+}
+
+#skills .middle p {
+	padding: 20px;
+	text-align: center;
+}
+
+#content {
+	float: left;
+}
+
+#photography, #reputation, #design {
+	float: right;
+}
+
+#content, #reputation, #design, #photography {
+	width: 25%;
+	padding-top: 40px;
+}
+
+.hover {
+  position:relative;
+  width:1000px;
+  height:800px;
+  overflow:hidden;
+	margin: auto;
+	text-align: center;
+}
+.hover figure {
+	width: 250px;
+    margin:auto;
+    position:relative;
+    cursor:pointer;
+}
+.hover figure img {
+    display:block;
+    position:relative;
+    margin: auto;
+}
+.hover figure figcaption {
+    display:block;
+    position:absolute;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.hover figure h2 {
+    font-family:"ABeeZee", sans-serif;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+}
+.hover figure p {
+    display:block;
+    font-family:"ABeeZee", sans-serif;
+    font-size:18px;
+    line-height:20px;
+    margin:0;
+    color:#fff;
+    text-align:center;
+}
+.hover figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:220%;
+    padding:24px;
+    background-color:rgba(191, 119, 127, 0.8);
+    text-align:center;
+    backface-visibility:hidden;
+	-webkit-backface-visibility: hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+}
+.hover figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+}
+.hover figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg);
+}
+.hover figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0);
+}
+
+/* contact me */
+
+#contact {
+	background-image: url(images/whitebackground.jpg);
+	width: 100%;
+	height: 1138px;
+	border-top: 3px #2F4F4F solid;
+	clear: both;
+}
+
+#contact img {
+	width: 140px;
+	float: left;
+	margin: 80px 2px 30px 470px;
+}
+
+#contact h1 {
+	float: right;
+	margin: 80px 270px 0 0;
+	width: 670px;
+	border-bottom: 3px #2F4F4F solid;
+}
+
+#contact p {
+	width: 670px;
+	float: right;
+	margin: 5px 270px 30px 0;
+}
+
+form {
+	width: 400px;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 160px;
+	padding: 30px;
+	border: 1px #2F4F4F solid;
+	font-family: "ABeeZee", sans-serif;
+	clear: both;
+}
+
+input, select, textarea {
+	border: 1px solid black;
+	padding:5px;
+	margin: 5px;
+}
+
+label, select, textarea {
+	display: block;
+	padding: 5px;
+}
+
+input[type="text"] {
+	padding: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+	font-family: "ABeeZee", sans-serif;
+	padding: 6px;
+	background-color: rgba(150, 80, 98, 0.8);
+	color: white;
+	font-size: 18px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+	opacity: .5;
+}
+
+textarea {
+	background-color: white;
+	color: #2F4F4F;
+	font-size: 20px;
+}
+
+fieldset {
+	border: 1px #2F4F4F dotted;
+	margin: 10px;
+	padding: 10px 0px;
+}
+
+legend {
+	font-family: "Comfortaa", cursive;
+	text-align: center;
+	font-size: 20px;
+}
+
+h5 {
+	font-family: "ABeeZee", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #2F4F4F;
+}
+
+#updated {
+	margin-bottom: 100px;
+}

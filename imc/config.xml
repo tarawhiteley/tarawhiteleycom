@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+
+	galleryWidth="700"
+	galleryHeight="750"
+	backgroundColor="rgba(153,102,102,1)"
+	imagePadding="10"
+	captionPosition="BOTTOM"
+	galleryFontFace="Georgia,serif"
+	textColor="rgba(255,255,255,1)"
+	captionBackColor="rgba(0,0,0,0)"
+	imageShadowBlur="0"
+	imageTransitionTime="0.5"
+	galleryTitle="Integrated Marketing Campaign"
+	galleryTitlePosition="TOP"
+	buttonBarPosition="TOP"
+	textShadowColor="rgba(0,0,0,0)"
+	showAutoPlayButton="true"
+	showThumbsButton="true"
+	showOpenButton="false"
+	flickrShowDescription="true"
+	thumbFrameColor="rgba(153,51,102,.5)"
+	shareFacebook="true"
+	shareTwitter="true"
+	sharePinterest="true"
+	backButtonPosition="OVERLAY"
+	backButtonHAlign="LEFT"
+	backButtonUrl="http://tarawhiteley.com/#portfolio_bottom"
+	showSmallBackButton="false"
+	resizeOnImport="false"
+
+>
+  <image imageURL="images/COVER_full1.jpg"
+	thumbURL="thumbs/COVER_full1.jpg"
+	linkURL="images/COVER_full1.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\COVER_full1.jpg">
+    <title><![CDATA[Cover Photo For Facebook]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/COVER_full2.jpg"
+	thumbURL="thumbs/COVER_full2.jpg"
+	linkURL="images/COVER_full2.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\COVER_full2.jpg">
+    <title><![CDATA[Cover Photo For Facebook]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/COVER_full3.jpg"
+	thumbURL="thumbs/COVER_full3.jpg"
+	linkURL="images/COVER_full3.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\COVER_full3.jpg">
+    <title><![CDATA[Cover Photo For Facebook]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/timeline1.jpg"
+	thumbURL="thumbs/timeline1.jpg"
+	linkURL="images/timeline1.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\timeline1.jpg">
+    <title><![CDATA[Timeline Post For Facebook]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/timeline2.jpg"
+	thumbURL="thumbs/timeline2.jpg"
+	linkURL="images/timeline2.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\timeline2.jpg">
+    <title><![CDATA[Timeline Post For Facebook]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/timeline3.jpg"
+	thumbURL="thumbs/timeline3.jpg"
+	linkURL="images/timeline3.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\timeline3.jpg">
+    <title><![CDATA[Timeline Post For Facebook]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/flyer.jpg"
+	thumbURL="thumbs/flyer.jpg"
+	linkURL="images/flyer.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\flyer.jpg">
+    <title><![CDATA[Promotional Flyer]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/postcard.jpg"
+	thumbURL="thumbs/postcard.jpg"
+	linkURL="images/postcard.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\postcard.jpg">
+    <title><![CDATA[Save The Date Postcard]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/infographic.jpg"
+	thumbURL="thumbs/infographic.jpg"
+	linkURL="images/infographic.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\infographic.jpg">
+    <title><![CDATA[Infographic]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/Presentation_Folder_Mockup_02.jpg"
+	thumbURL="thumbs/Presentation_Folder_Mockup_02.jpg"
+	linkURL="images/Presentation_Folder_Mockup_02.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\Presentation_Folder_Mockup_02.png">
+    <title><![CDATA[Folder Mockup]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/Presentation_Folder_Mockup_01.jpg"
+	thumbURL="thumbs/Presentation_Folder_Mockup_01.jpg"
+	linkURL="images/Presentation_Folder_Mockup_01.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\Presentation_Folder_Mockup_01.png">
+    <title><![CDATA[Folder Mockup]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+  <image imageURL="images/logo.jpg"
+	thumbURL="thumbs/logo.jpg"
+	linkURL="images/logo.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Tara\OneDrive\Documents\University of Florida\Web Design\tarawhiteley.com\images\imc\logo.jpg">
+    <title><![CDATA[Nonprofit Logo Redesign]]></title>
+    <caption><![CDATA[Assignment for UF WDOC Master's Program]]></caption>
+  </image>
+</juiceboxgallery>
